@@ -114,3 +114,83 @@ Pritam Bairagi
 
 GitHub: https://github.com/pritam-bairagi
 Contact: 01883558258
+===================================================================================
+ecommerce-platform
+│
+├── backend
+│   ├── config
+│   │   └── db.js
+│   │
+│   ├── controllers
+│   │   ├── authController.js
+│   │   ├── productController.js
+│   │   ├── orderController.js
+│   │   └── userController.js
+│   │
+│   ├── middleware
+│   │   ├── authMiddleware.js
+│   │   └── errorMiddleware.js
+│   │
+│   ├── models
+│   │   ├── User.js
+│   │   ├── Product.js
+│   │   ├── Order.js
+│   │   ├── Sale.js
+│   │   └── Transaction.js
+│   │
+│   ├── routes
+│   │   ├── authRoutes.js
+│   │   ├── productRoutes.js
+│   │   ├── orderRoutes.js
+│   │   └── userRoutes.js
+│   │
+│   ├── utils
+│   │   ├── sendEmail.js
+│   │   └── analytics.js
+│   │
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+│
+│
+├── frontend
+│   ├── public
+│   │   ├── logo.png
+│   │   └── icons
+│   │
+│   ├── src
+│   │   ├── components
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── ProductCard.jsx
+│   │   │   └── SearchBox.jsx
+│   │   │
+│   │   ├── pages
+│   │   │   ├── Home.jsx
+│   │   │   ├── Shop.jsx
+│   │   │   ├── Cart.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   └── SellerPanel.jsx
+│   │   │
+│   │   ├── contexts
+│   │   │   └── AuthContext.jsx
+│   │   │
+│   │   ├── services
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   └── package.json
+│
+│
+├── docs
+│   └── API_DOCUMENTATION.md
+│
+├── .gitignore
+├── README.md
+└── package.json
+
