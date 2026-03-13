@@ -1,0 +1,25 @@
+{
+  "name": "mern-auth-project",
+  "version": "1.0.0",
+  "description": "Professional MERN Stack Auth System",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "axios": "^1.13.5",
+    "concurrently": "^9.2.1",
+    "framer-motion": "^12.34.3",
+    "lucide-react": "^0.575.0",
+    "postcss": "^8.5.6",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.13.1",
+    "tailwindcss": "^4.2.1"
+  },
+  "dependencies": {
+    "mongodb": "^7.1.0"
+  }
+}
