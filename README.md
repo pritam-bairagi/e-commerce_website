@@ -115,6 +115,7 @@ Pritam Bairagi
 GitHub: https://github.com/pritam-bairagi
 Contact: 01883558258
 ===================================================================================
+```bash
 ecommerce-platform
 │
 ├── backend
@@ -193,4 +194,4 @@ ecommerce-platform
 ├── .gitignore
 ├── README.md
 └── package.json
-
+```
